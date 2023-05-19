@@ -1,10 +1,515 @@
-*trabajaremos los números pares e impares 
-*tenemos que tener una cierta cantidad para ver si es par o impar 
-*el numero es 100 y nos damos cuenta que es par porque lo podemos dividir en dos 
-*100/2=50 
-*se confirma que este número sí es par 
-*terminamos 
-*
-
-
-*
+*trabajaremos los números pares e impares  diagrama de flujo  
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "type": "rectangle",
+      "version": 675,
+      "versionNonce": 1808017656,
+      "isDeleted": false,
+      "id": "70uZ_UOO4OtCj2uxx7sju",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 556.8000335693359,
+      "y": 140.1999969482422,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 292.7999572753906,
+      "height": 92.79998779296875,
+      "seed": 345991844,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [],
+      "updated": 1684453364695,
+      "link": null,
+      "locked": false
+    },
+    {
+      "type": "line",
+      "version": 35,
+      "versionNonce": 1437044872,
+      "isDeleted": false,
+      "id": "uhLFFznZwv24Ym5muG6pX",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 279.2000122070313,
+      "y": 160.79998779296875,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 0,
+      "height": 0,
+      "seed": 2105397412,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "updated": 1684453314801,
+      "link": null,
+      "locked": false,
+      "startBinding": null,
+      "endBinding": null,
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": null,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "type": "text",
+      "version": 112,
+      "versionNonce": 1520519160,
+      "isDeleted": false,
+      "id": "exI93MI0x3pIKsHa_N0hq",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 627.1999893188477,
+      "y": 180.60000610351562,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 152.659912109375,
+      "height": 25,
+      "seed": 1896304028,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1684453351651,
+      "link": null,
+      "locked": false,
+      "fontSize": 20,
+      "fontFamily": 1,
+      "text": "LOS NÚMEROS ",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "LOS NÚMEROS ",
+      "lineHeight": 1.25,
+      "baseline": 18
+    },
+    {
+      "type": "arrow",
+      "version": 819,
+      "versionNonce": 167900552,
+      "isDeleted": false,
+      "id": "-o1g5sR_O4gPPVxOu7lJj",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 704.817095160545,
+      "y": 229.5701086041167,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 3.5280626519638645,
+      "height": 65.36087344459409,
+      "seed": 256380836,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "updated": 1684453506597,
+      "link": null,
+      "locked": false,
+      "startBinding": null,
+      "endBinding": {
+        "elementId": "6FJG8kDbFKpSJARKyemtm",
+        "focus": -0.07797505807259558,
+        "gap": 12.904667435638757
+      },
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          3.5280626519638645,
+          65.36087344459409
+        ]
+      ]
+    },
+    {
+      "type": "diamond",
+      "version": 497,
+      "versionNonce": 2168200,
+      "isDeleted": false,
+      "id": "6FJG8kDbFKpSJARKyemtm",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 607.2000389099121,
+      "y": 302.4000244140625,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 228.0000038146973,
+      "height": 131.99996948242185,
+      "seed": 773759388,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [
+        {
+          "id": "-o1g5sR_O4gPPVxOu7lJj",
+          "type": "arrow"
+        },
+        {
+          "id": "8tD4rBpuQ3Ntj3Lhkd0v5",
+          "type": "arrow"
+        },
+        {
+          "id": "cB57wSBpNWtCM-qtfSgJz",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1684453709075,
+      "link": null,
+      "locked": false
+    },
+    {
+      "type": "text",
+      "version": 12,
+      "versionNonce": 1381997560,
+      "isDeleted": false,
+      "id": "Gdcmck6I1iDyrY3FiLZEp",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 644,
+      "y": 353,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 141.77992248535156,
+      "height": 25,
+      "seed": 763495816,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1684453500310,
+      "link": null,
+      "locked": false,
+      "fontSize": 20,
+      "fontFamily": 1,
+      "text": "IDENTIFICAR",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "IDENTIFICAR",
+      "lineHeight": 1.25,
+      "baseline": 18
+    },
+    {
+      "type": "arrow",
+      "version": 145,
+      "versionNonce": 443468280,
+      "isDeleted": false,
+      "id": "8tD4rBpuQ3Ntj3Lhkd0v5",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 644.7253494212409,
+      "y": 400.81520968699124,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 73.74742134902135,
+      "height": 105.46530465742126,
+      "seed": 867985400,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "updated": 1684453996075,
+      "link": null,
+      "locked": false,
+      "startBinding": {
+        "elementId": "6FJG8kDbFKpSJARKyemtm",
+        "gap": 9.251430196939216,
+        "focus": 0.4710594685409765
+      },
+      "endBinding": {
+        "elementId": "M5go9os2PNg4CK7qXgdmf",
+        "gap": 1.3779524862821058,
+        "focus": 0.5173179235956219
+      },
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -73.74742134902135,
+          105.46530465742126
+        ]
+      ]
+    },
+    {
+      "type": "arrow",
+      "version": 112,
+      "versionNonce": 794034936,
+      "isDeleted": false,
+      "id": "cB57wSBpNWtCM-qtfSgJz",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 778.596707911295,
+      "y": 414.32520069797874,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 61.153574956227544,
+      "height": 104.90217440388062,
+      "seed": 708626168,
+      "groupIds": [],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": [],
+      "updated": 1684454292671,
+      "link": null,
+      "locked": false,
+      "startBinding": {
+        "elementId": "6FJG8kDbFKpSJARKyemtm",
+        "gap": 11.3845518915129,
+        "focus": -0.2694274584000895
+      },
+      "endBinding": {
+        "elementId": "tb9DQio0r6inqqotnwqAm",
+        "gap": 1.8497537535711235,
+        "focus": -0.5443888922604893
+      },
+      "lastCommittedPoint": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          61.153574956227544,
+          104.90217440388062
+        ]
+      ]
+    },
+    {
+      "type": "rectangle",
+      "version": 333,
+      "versionNonce": 540340616,
+      "isDeleted": false,
+      "id": "M5go9os2PNg4CK7qXgdmf",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 273.6000061035156,
+      "y": 504.20001220703125,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 296.8000183105469,
+      "height": 139.99993896484375,
+      "seed": 1399804808,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "8tD4rBpuQ3Ntj3Lhkd0v5",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1684453996075,
+      "link": null,
+      "locked": false
+    },
+    {
+      "type": "text",
+      "version": 101,
+      "versionNonce": 2035764872,
+      "isDeleted": false,
+      "id": "ptDBZ3rDQFXw9csC-ED4n",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 276.60003662109375,
+      "y": 518,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 293.0997619628906,
+      "height": 50,
+      "seed": 703797496,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1684453932484,
+      "link": null,
+      "locked": false,
+      "fontSize": 20,
+      "fontFamily": 1,
+      "text": "son números enteros que son \ndivisibles entre dos",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "son números enteros que son \ndivisibles entre dos",
+      "lineHeight": 1.25,
+      "baseline": 43
+    },
+    {
+      "type": "text",
+      "version": 3,
+      "versionNonce": 2123877000,
+      "isDeleted": false,
+      "id": "mpdiAYOdny9qXXRmhp1K9",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 301,
+      "y": 578,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 221.75979614257812,
+      "height": 50,
+      "seed": 975207304,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1684453978895,
+      "link": null,
+      "locked": false,
+      "fontSize": 20,
+      "fontFamily": 1,
+      "text": "Algunos ejemplos son:...\n -6, -4, -2, 0, 2,",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Algunos ejemplos son:...\n -6, -4, -2, 0, 2,",
+      "lineHeight": 1.25,
+      "baseline": 43
+    },
+    {
+      "type": "rectangle",
+      "version": 147,
+      "versionNonce": 572246152,
+      "isDeleted": false,
+      "id": "tb9DQio0r6inqqotnwqAm",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 841.6000366210938,
+      "y": 511.3999938964844,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 289.59991455078136,
+      "height": 160.0000305175781,
+      "seed": 931556600,
+      "groupIds": [],
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "cB57wSBpNWtCM-qtfSgJz",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1684454292671,
+      "link": null,
+      "locked": false
+    },
+    {
+      "type": "text",
+      "version": 61,
+      "versionNonce": 1211431560,
+      "isDeleted": false,
+      "id": "nXjId8dXs63OGSBh0Lc34",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 850.4000244140625,
+      "y": 528.6000366210938,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "width": 280.1998291015625,
+      "height": 125,
+      "seed": 2016003720,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1684454271370,
+      "link": null,
+      "locked": false,
+      "fontSize": 20,
+      "fontFamily": 1,
+      "text": "Un número natural es impar \nsi y solo si él no es par.\n Los cinco primeros números \nnaturales\n impares son: 1, 3, 5, 7, 91.",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Un número natural es impar \nsi y solo si él no es par.\n Los cinco primeros números \nnaturales\n impares son: 1, 3, 5, 7, 91.",
+      "lineHeight": 1.25,
+      "baseline": 118
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
