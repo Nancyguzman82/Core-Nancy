@@ -1,0 +1,7 @@
+Crear mi nombre y edad
+
+Algoritmo NombreYEdad
+	imprimir "Nancy Alecio"
+	imprimir " 41"
+	
+FinAlgoritmo
