@@ -1,0 +1,6 @@
+proceso de la divicion MOD
+
+Algoritmo modificacion
+	leer x
+	imprimir x % 7
+FinAlgoritmo
