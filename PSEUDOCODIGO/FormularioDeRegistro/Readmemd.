@@ -1,0 +1,21 @@
+* Crear un Formulario de Registro
+Algoritmo FormularioDeRegistro
+	escribir "Primer nombre "
+	Leer n
+	escribir"Apellido "
+	leer a
+	escribir"edad"
+	leer e
+	Escribir "Email"
+	leer c
+	escribir "direccion"
+	leer t
+	Imprimir "datos de usuario"
+	Imprimir "nombre completo: " n + a 
+	imprimir " Edad: " e 
+	Imprimir "email: " c
+	imprimir "Direccion: "  t
+	
+	
+	
+FinAlgoritmo
