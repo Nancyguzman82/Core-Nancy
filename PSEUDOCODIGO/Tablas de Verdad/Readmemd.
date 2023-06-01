@@ -1,0 +1,15 @@
+*Resolver la tabla Buliana
+✅o❌
+V &V = V✅
+V &F =  f✅
+F &V = V  ❌
+F &F = F✅
+V |V = ✅
+V |F = F  ❌
+F |V =  v  ❌
+F |F =  f  ✅
+~V = V  ❌
+~F =  v  ✅
+ (V |F ) &(F |F) = V❌
+~((V |F ) &(F |F )) &F =  v  ❌
+~((V |F ) &(F |F)) &V = F  ✅
