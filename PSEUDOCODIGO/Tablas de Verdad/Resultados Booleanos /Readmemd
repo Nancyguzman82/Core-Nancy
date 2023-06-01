@@ -1,0 +1,16 @@
+Resultados booleanos resolver la tabla y explicarla 
+lgoritmo boolean
+	a <- 5 == 3 
+  = esto es FALSO / por que 3 es menor que 5
+	b <- 4 <> 3
+  4si es mayor que 3 esntonces es / VERDADERA
+	c <- 7 > 7
+  7 NO PUEDE SER MAYOR A 7 / esta es FALSA
+	d <- 4 < 4
+  4 no puede ser mayor a 4 entonces / esta es FALSA
+  e <- 100 <= 90
+  100 si es mayor a 90 entonces / esta es VERDADERA
+	f <- 40 >= 40
+  40 no puede ser menor a 40 entonces / esta es FALSA
+  
+FinAlgoritmo 
